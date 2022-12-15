@@ -1,0 +1,64 @@
+.heading {
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: sans-serif;
+
+  color: #252525;
+}
+nav {
+  background-color: azure;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav > img {
+  height: 40px;
+}
+#addbutton {
+  font-weight: 900;
+  border: 0px;
+  font-size: x-large;
+}
+#delete-btn {
+  padding: 5px;
+  margin: 2px;
+  border: 0px;
+  font-weight: 900;
+}
+.sidebarheader {
+  background-color: whitesmoke;
+  padding: 5px;
+}
+.todoitems {
+  background-color: whitesmoke;
+  padding: 2px;
+}
+.Notodo {
+  padding: 25%;
+  background-color: pink;
+}
+.Notodo > h1 {
+  color: brown;
+  font-size: x-large;
+}
+.Notodo > button {
+  border: 0px;
+  font-size: large;
+  background-color: #252525;
+  color: whitesmoke;
+}
+.split {
+  display: flex;
+}
+.textType {
+  overflow-y: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.selected-note {
+  background-color: #252525;
+  padding: 10px;
+  color: whitesmoke;
+}
